@@ -24,7 +24,7 @@ device_names = []
 
 # LIBRARY_NAME has to be exact, although it doesn't need to include the full path.
 # The version tagged as 0.8.5 (download link below) builds a library with this name.
-# https://github.com/raboof/nethogs/archive/v0.8.5.tar.gz
+# https://github.com/RmnJL/nethogs-json/archive/v0.8.5.tar.gz
 LIBRARY_NAME = 'libnethogs.so.0.8.5'
 
 # EXPERIMENTAL: Optionally, specify a capture filter in pcap format (same as
@@ -40,7 +40,7 @@ FILTER = None
 #####################
 
 # Here are some definitions from libnethogs.h
-# https://github.com/raboof/nethogs/blob/master/src/libnethogs.h
+# https://github.com/RmnJL/nethogs-json/blob/main/src/libnethogs.h
 # Possible actions are NETHOGS_APP_ACTION_SET & NETHOGS_APP_ACTION_REMOVE
 # Action REMOVE is sent when nethogs decides a connection or a process has died. There are two
 # timeouts defined, PROCESSTIMEOUT (150 seconds) and CONNTIMEOUT (50 seconds). AFAICT, the latter
@@ -60,7 +60,7 @@ class LoopStatus():
     MAP = {OK: 'OK', FAILURE: 'FAILURE', NO_DEVICE: 'NO_DEVICE'}
 
 # The sent/received KB/sec values are averaged over 5 seconds; see PERIOD in nethogs.h.
-# https://github.com/raboof/nethogs/blob/master/src/nethogs.h#L43
+# https://github.com/RmnJL/nethogs-json/blob/main/src/nethogs.h#L43
 # sent_bytes and recv_bytes are a running total
 class NethogsMonitorRecord(ctypes.Structure):
     """ctypes version of the struct of the same name from libnethogs.h"""

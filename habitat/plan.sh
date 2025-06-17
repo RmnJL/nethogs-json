@@ -3,7 +3,7 @@ pkg_origin=core
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=("GPL-2.0")
 pkg_description="Linux 'net top' tool"
-pkg_upstream_url="https://github.com/raboof/nethogs"
+pkg_upstream_url="https://github.com/RmnJL/nethogs-json"
 
 pkg_deps=(
   core/libpcap

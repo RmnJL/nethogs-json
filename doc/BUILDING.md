@@ -8,7 +8,7 @@ This may show an error related to MAC addresses, but just try again:
   vagrant up
   vagrant ssh
   sudo pkg install git gmake
-  git clone https://github.com/raboof/nethogs
+  git clone https://github.com/RmnJL/nethogs-json
   cd nethogs
   gmake
   sudo ./src/nethogs

@@ -57,7 +57,7 @@ setup(
     name="nethogs",
     version=__version__,
     author="raboof",
-    url="https://github.com/raboof/nethogs",
+    url="https://github.com/RmnJL/nethogs-json",
     description="Nethogs python bindings",
     ext_modules=ext_modules,
     cmdclass={"build_ext": build_ext},

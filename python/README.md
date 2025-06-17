@@ -19,7 +19,7 @@ pip install .
 Or:
 ``` bash
 ### if you can't bother to clone the repo yourself
-pip install git+https://github.com/raboof/nethogs.git
+pip install git+https://github.com/RmnJL/nethogs-json.git
 ```
 
 ### To use
@@ -46,4 +46,3 @@ th.join()
 
 ## Extra stuff
 The script `python-wrapper.py` used to be in a contrib directory.
-```

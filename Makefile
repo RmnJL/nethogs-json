@@ -17,7 +17,7 @@ release: clean
 	git archive --prefix="nethogs-$(RELEASE)/" -o "../nethogs-$(RELEASE).tar.gz" "v$(RELEASE)"
 	gpg --armor --detach-sign "../nethogs-$(RELEASE).tar.gz"
 	git push --tags
-	echo "now upload the detached signature ../nethogs-$(RELEASE).tar.gz.asc to https://github.com/raboof/nethogs/releases/new?tag=v$(VERSION)"
+	echo "now upload the detached signature ../nethogs-$(RELEASE).tar.gz.asc to https://github.com/RmnJL/nethogs-json/releases/new?tag=v$(VERSION)"
 
 check:
 	$(MAKE) -C src -f MakeApp.mk $@
