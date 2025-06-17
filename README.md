@@ -11,6 +11,6 @@ NetHogs V 0.8.7
 
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/RmnJL/nethogs-json/master/install.sh --ipv4)
+sudo bash -c "$(curl -Ls https://raw.githubusercontent.com/RmnJL/nethogs-json/refs/heads/main/install.sh --ipv4)"
 ````
 
